@@ -1,0 +1,88 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# sqlite3 db files
+*.db
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# xlib logs
+xlibsyslog
+
+# node-js
+node_modules
+jspm_packages
+package-lock.json
+
+npm-debug.log*
+.npm
+.node_repl_history
+.grunt
+
+# Unit test / coverage reports
+.coverage
+htmlcov
+.tox
+nosetests.xml
+.cache
+.pytest*
+
+# IDEs
+.idea
+.vscode
+*.iml
+
+# virtualenv
+env
+
+# FIXME: Find a better place for test.conf
+odps/tests/test.conf
+
+.DS_Store
+
+# notebook
+.ipynb_checkpoints
+test*.ipynb
+
+# cython generated
+odps/src/*/*_c.c*
+odps/src/*_c.c*
+odps/tunnel/pb/*_c.c*
+odps/tunnel/io/*_c.c*
+odps/tunnel/pdio/*_c.c*
+odps/tunnel/*_c.c*
+
+# benchmark
+benchmarks/*.out
+benchmarks/*.png
+
+# generated reports
+misc/algo_diff.txt
+
+# test pyodpswrapper
+bin/test_pyodpswrapper.py
+
+# tmp files
+*.tmp
+*.swp
+
+# documentation
+docs/**/*.mo
+/odps/lab_extension/lib/
